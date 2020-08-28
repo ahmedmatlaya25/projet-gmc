@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    line-height: 1,6em;
+    margin: 0;
+  }
+  .center {
+  width: 80%;
+  margin: outo;
+  overflow: hidden;
+  }
+    #mainhader {
+    background: #333333;
+    color: white;
+  }
+  #mainNAV {
+  background: #cccccc;
+  color: black;
+  }
+  #mainNAV ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  #mainNAV li {
+    display: inline;
+    padding: 5px 10px;
+  }
+  #mainNAV a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  #mainNAV li:hover {
+    background: #aaaaaa;
+  }
+  #footer {
+    background: #333333;
+    color:white;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .colors{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10cm;
+  }
+
+  #red{
+    background-color: darkred;
+    font-size: 50px;
+  }
+  #blue{
+    background-color:darkblue;
+    font-size: 50px;
+  }
+  #green{
+    background-color: darkgreen;
+    font-size: 50px;
+  }
+  #white{
+    background-color: white;
+    font-size: 50px;
+  }
+
+
+@media screen and (max-width: 600px) {
+  #info {
+    background-color: teal;
+  }
+}
+#info{
+  width: 200px;
+}
+#myDIV {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 1s infinite;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 1300px;}
+}
+
+@keyframes mynewmove {
+  from {top: 0px;}
+  to {top: 200px;}
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/html-ckp/res/icons/games.ico">
+    <title>Game Free Game</title>
+</head>
+<body id="body">
+    <header id="mainhader">
+        <div class="center">
+            <h1>Welcame to my projet</h1>
+        </div>
+        <div class="colors">
+            <button id="red" type="button" onclick="document.getElementById('body').style.backgroundColor=' darkred'">red</button>
+            <button id="blue" type="button" onclick="document.getElementById('body').style.backgroundColor=' darkblue'">blue</button>
+            <button id="green" type="button" onclick="document.getElementById('body').style.backgroundColor='darkgreen'">green</button>
+            <button id="white" type="button" onclick="document.getElementById('body').style.backgroundColor='white'">white</button>
+        </div>
+      </header>
+    <nav id="mainNAV">
+        <div class="center">
+            <ul>
+                <li><a href="index.html">home</a>
+                </li>
+                <li><a href="contact.html">contacts</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h1 onclick="changeText(this)">ther is no games here</h1>
+    <script>
+        function changeText(id) {
+          id.innerHTML = "i say ther is no gemes ";
+        }
+        </script>
+        <p>try clicking it</p>
+        <p id="score"></p>
+        <button id="myDIV" type="button" onclick="document.getElementById('score').innerHTML = 'good job';"></button>
+
+        
+    </body>
+    <script src="javascript.js"></script>
+</html>
